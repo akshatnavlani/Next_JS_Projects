@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherWise</title>
+    <link rel="stylesheet" type="text/css" href="WeatherWise.css"/>
+
+</head>
+<body class="body">
+    <div class="header"><!--Creating the title bar showing website name-->
+    <p class="title"><img src="icons8-sun-48.png" alt="">WeatherWise</p></div>
+
+    <div class="cities"><p class="fc">Frequently searched cities:</p><!--Feature intended to give direct weather status on click of a button but did not work-->
+    <table>
+        <tr>
+            <td><button>Bangalore</button></td>
+            <td><button>Chennai</button></td>
+            <td><button>Mumbai</button></td>
+            <td><button>Delhi</button></td>
+            <td><button>Paris</button></td>
+            <td><button>Tokyo</button></td>
+            <td><button>Sydney</button></td>
+            <td><button>London</button></td>
+            <td><button>New York</button></td>
+            <td><button>LA</button></td>
+        </tr>
+    </table></div>
+
+
+    <div class="searchbox"><!--Search Box-->
+        
+        <img src="icons8-search-30.png" alt=""> 
+            </div>
+            <div class="mainbox"><!--Main Information box-->
+                <p id="current">Current Weather</p>
+                <input type="text" id="city" class="searchtext" placeholder="Enter a city">
+                <button id="getWeather">Get Weather</button>
+                <div id="weatherInfo"></div>
+            </div>
+            <script src="Weatherwise.js"></script>
+
+            <!--Initialising time fearture-->
+            <div id="time"><script src="Time.js"></script></div>
+            <div id="line"><b>______________________________________________________________________________________________________________________________</b></div>
+            
+            <p id="info">More Info:</p>
+
+            <div class="bottom"></div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+function changeText(id){id.innerHTML="OOPSS!";}
+const button = document.getElementById('myButton');
+    button.addEventListener('click',function(){alert('Button clicked');});
